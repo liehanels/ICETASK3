@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Welcome to my expo app</Text>
+      <Text>This is a subtitle</Text>
       <StatusBar style="auto" />
     </View>
   );
