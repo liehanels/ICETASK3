@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "start": "expo start",
+    "startapp": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "start": "serve -s build",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "expo": "~54.0.12",
