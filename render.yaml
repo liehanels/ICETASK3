@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: my-typescript-app
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    repo: https://github.com/yourusername/yourrepo
+    branch: main
