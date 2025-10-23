@@ -1,8 +1,10 @@
 services:
   - type: web
-    name: my-typescript-app
+    name: icetask3
     env: node
+    rootDir: IceTask3
     buildCommand: npm install && npm run build
     startCommand: npm run start
     repo: https://github.com/yourusername/yourrepo
     branch: main
+    plan: free
